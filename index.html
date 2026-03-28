@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayesha Kitey | Data Analyst & Web Developer</title>
+  <meta name="description" content="Ayesha Kitey – Detail-oriented Data Analyst & Web Developer skilled in SQL, Power BI, Python, and front-end technologies. View my projects and get in touch." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>AK<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="mailto:ayeshakitey@gmail.com" class="nav-btn">Hire Me</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+      <div class="glow glow-3"></div>
+      <div class="particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>Available for opportunities
+      </div>
+      <h1 class="hero-title">
+        <span class="greeting">Hello, I'm</span>
+        <span class="name-line">
+          <span class="name-text">Ayesha</span>
+          <span class="name-highlight">Kitey</span>
+        </span>
+      </h1>
+      <div class="hero-role">
+        <span class="role-prefix">I build</span>
+        <span class="role-rotator" id="roleRotator">
+          <span class="role-item active">Data Dashboards</span>
+          <span class="role-item">Web Applications</span>
+          <span class="role-item">Analytical Solutions</span>
+          <span class="role-item">Digital Experiences</span>
+        </span>
+      </div>
+      <p class="hero-desc">
+        Detail-oriented Data Analyst & Web Developer with expertise in SQL, Power BI, Python, and front-end technologies. Turning raw data into insights and ideas into products.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">
+          <span>View My Work</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">76.91<span class="stat-sup">%</span></span>
+          <span class="stat-label">Academic Score</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">2+</span>
+          <span class="stat-label">Years Coding</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="code-filename">profile.py</span>
+        </div>
+        <pre class="code-body"><code><span class="kw">class</span> <span class="cls">Ayesha</span>:
+  name = <span class="str">"Ayesha Kitey"</span>
+  role = [
+    <span class="str">"Data Analyst"</span>,
+    <span class="str">"Web Developer"</span>
+  ]
+  skills = {
+    <span class="str">"data"</span>: [<span class="str">"SQL"</span>, <span class="str">"Power BI"</span>,
+             <span class="str">"Python"</span>, <span class="str">"Excel"</span>],
+    <span class="str">"web"</span>: [<span class="str">"HTML"</span>, <span class="str">"CSS"</span>,
+            <span class="str">"JS"</span>, <span class="str">"React"</span>]
+  }
+  <span class="kw">def</span> <span class="fn">goal</span>(self):
+    <span class="kw">return</span> <span class="str">"Drive insights &amp;</span>
+            <span class="str"> build solutions 🚀"</span></code></pre>
+      </div>
+      <div class="floating-badges">
+        <div class="f-badge f-badge-1"><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" />Python</div>
+        <div class="f-badge f-badge-2"><img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" />React</div>
+        <div class="f-badge f-badge-3"><img src="https://cdn.simpleicons.org/mysql/4479A1" alt="SQL" />SQL</div>
+        <div class="f-badge f-badge-4"><img src="https://cdn.simpleicons.org/powerbi/F2C811" alt="Power BI" />Power BI</div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Crafting Data Stories &<br/>Digital Experiences</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-avatar-wrap">
+            <div class="avatar-ring"></div>
+            <div class="avatar-initials">AK</div>
+            <div class="avatar-glow"></div>
+          </div>
+          <div class="about-quick-info">
+            <div class="qi-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>India</span>
+            </div>
+            <div class="qi-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.81a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              <span>+91 9356607180</span>
+            </div>
+            <div class="qi-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>ayeshakitey@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="about-lead">I'm a passionate <strong>Data Analyst & Web Developer</strong> who loves turning complex data into actionable insights and building beautiful, responsive web applications.</p>
+          <p class="about-text">With hands-on experience in SQL, Power BI, Advanced Excel, and front-end technologies, I've completed real-world projects including financial dashboards and e-commerce data analysis. Currently working on a live salon website, I bring analytical thinking combined with modern development skills.</p>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="hc-icon">📊</div>
+              <div class="hc-text">
+                <strong>Data Analysis</strong>
+                <span>Power BI, SQL, Excel</span>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="hc-icon">💻</div>
+              <div class="hc-text">
+                <strong>Web Development</strong>
+                <span>HTML, CSS, JS, React</span>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="hc-icon">🕷️</div>
+              <div class="hc-text">
+                <strong>Web Scraping</strong>
+                <span>BeautifulSoup, Selenium</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-actions">
+            <a href="https://github.com/ayeshakitey" target="_blank" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              GitHub Profile
+            </a>
+            <a href="https://www.linkedin.com/in/ayesha-kitey-063360251" target="_blank" class="btn btn-ghost">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Expertise</span>
+        <h2 class="section-title">Skills & Technologies</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category" data-aos="fade-up">
+          <div class="sc-header">
+            <div class="sc-icon">📊</div>
+            <h3>Data & Analytics</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item" data-level="90">
+              <div class="skill-info"><span>SQL</span><span class="skill-pct">90%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item" data-level="85">
+              <div class="skill-info"><span>Power BI</span><span class="skill-pct">85%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item" data-level="88">
+              <div class="skill-info"><span>Advanced Excel</span><span class="skill-pct">88%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item" data-level="75">
+              <div class="skill-info"><span>Python</span><span class="skill-pct">75%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+          <div class="sc-header">
+            <div class="sc-icon">💻</div>
+            <h3>Web Development</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item" data-level="92">
+              <div class="skill-info"><span>HTML & CSS</span><span class="skill-pct">92%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+            </div>
+            <div class="skill-item" data-level="80">
+              <div class="skill-info"><span>JavaScript</span><span class="skill-pct">80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item" data-level="70">
+              <div class="skill-info"><span>React JS</span><span class="skill-pct">70%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-item" data-level="78">
+              <div class="skill-info"><span>Web Scraping</span><span class="skill-pct">78%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category skill-tools" data-aos="fade-up" data-aos-delay="200">
+          <div class="sc-header">
+            <div class="sc-icon">🛠️</div>
+            <h3>Tools & Platforms</h3>
+          </div>
+          <div class="tools-grid">
+            <div class="tool-chip"><img src="https://cdn.simpleicons.org/mysql/4479A1" alt="MySQL" /><span>MySQL</span></div>
+            <div class="tool-chip"><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" /><span>Python</span></div>
+            <div class="tool-chip"><img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" /><span>React</span></div>
+            <div class="tool-chip"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JS" /><span>JavaScript</span></div>
+            <div class="tool-chip"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML5" /><span>HTML5</span></div>
+            <div class="tool-chip"><img src="https://cdn.simpleicons.org/css3/1572B6" alt="CSS3" /><span>CSS3</span></div>
+            <div class="tool-chip"><img src="https://cdn.simpleicons.org/selenium/43B02A" alt="Selenium" /><span>Selenium</span></div>
+            <div class="tool-chip"><img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub" /><span>GitHub</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-sub">Real-world projects that demonstrate my analytical and development skills</p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card featured-project">
+          <div class="pc-header">
+            <div class="pc-tags">
+              <span class="pc-tag tag-data">Data Analytics</span>
+              <span class="pc-tag tag-excel">Excel</span>
+            </div>
+            <div class="pc-links">
+              <a href="https://github.com/ayeshakitey/Credit_Card_Transaction_Analysis_Dasboard" target="_blank" class="pc-link" title="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="pc-icon-wrap">
+            <div class="pc-icon">💳</div>
+          </div>
+          <h3 class="pc-title">Credit Card Transaction Analysis Dashboard</h3>
+          <p class="pc-desc">Crafted a dynamic interactive dashboard analyzing credit card sales trends and product performance insights. Used DAX functions and Power Query for meticulous data transformation with essential KPIs and compelling visual insights to empower strategic decision-making.</p>
+          <div class="pc-tech">
+            <span>Advanced Excel</span>
+            <span>DAX</span>
+            <span>Power Query</span>
+            <span>KPI Design</span>
+          </div>
+          <a href="https://github.com/ayeshakitey/Credit_Card_Transaction_Analysis_Dasboard" target="_blank" class="pc-cta">
+            View Project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <div class="pc-glow"></div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="pc-header">
+            <div class="pc-tags">
+              <span class="pc-tag tag-scraping">Web Scraping</span>
+              <span class="pc-tag tag-python">Python</span>
+            </div>
+            <div class="pc-links">
+              <a href="https://github.com/ayeshakitey/flipkart-laptop-price-analysis" target="_blank" class="pc-link" title="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="pc-icon-wrap">
+            <div class="pc-icon">💻</div>
+          </div>
+          <h3 class="pc-title">Flipkart Laptop Price Analysis</h3>
+          <p class="pc-desc">Utilized BeautifulSoup and Selenium to scrape valuable product data from Flipkart, capturing prices, ratings, and specifications. Analyzed data to uncover competitive pricing trends and highlight best-value products for informed purchasing decisions.</p>
+          <div class="pc-tech">
+            <span>Python</span>
+            <span>BeautifulSoup</span>
+            <span>Selenium</span>
+            <span>Data Analysis</span>
+          </div>
+          <a href="https://github.com/ayeshakitey/flipkart-laptop-price-analysis" target="_blank" class="pc-cta">
+            View Project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <div class="pc-glow"></div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="pc-header">
+            <div class="pc-tags">
+              <span class="pc-tag tag-web">Web Dev</span>
+              <span class="pc-tag tag-live">Live</span>
+            </div>
+            <div class="pc-links">
+              <a href="https://github.com/ayeshakitey" target="_blank" class="pc-link" title="View on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="pc-icon-wrap">
+            <div class="pc-icon">✂️</div>
+          </div>
+          <h3 class="pc-title">Live Salon Website (KCOZM)</h3>
+          <p class="pc-desc">Currently building a full-featured live salon website with a premium design, booking system, service showcase, admin CMS panel, and responsive UI. Demonstrates end-to-end web development capabilities with real-world business requirements.</p>
+          <div class="pc-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Admin CMS</span>
+          </div>
+          <a href="https://github.com/ayeshakitey" target="_blank" class="pc-cta">
+            View GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <div class="pc-glow"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-sub">Open to full-time roles, internships, and freelance projects</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <p>Whether you have a project in mind, need data analysis, or want to discuss an opportunity — I'd love to hear from you!</p>
+          <div class="contact-links">
+            <a href="mailto:ayeshakitey@gmail.com" class="contact-link-item">
+              <div class="cli-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="cli-text">
+                <span class="cli-label">Email</span>
+                <span class="cli-value">ayeshakitey@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:9356607180" class="contact-link-item">
+              <div class="cli-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.81a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="cli-text">
+                <span class="cli-label">Phone</span>
+                <span class="cli-value">+91 9356607180</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/ayesha-kitey-063360251" target="_blank" class="contact-link-item">
+              <div class="cli-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </div>
+              <div class="cli-text">
+                <span class="cli-label">LinkedIn</span>
+                <span class="cli-value">ayesha-kitey-063360251</span>
+              </div>
+            </a>
+            <a href="https://github.com/ayeshakitey" target="_blank" class="contact-link-item">
+              <div class="cli-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </div>
+              <div class="cli-text">
+                <span class="cli-label">GitHub</span>
+                <span class="cli-value">ayeshakitey</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Doe" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Project Inquiry" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <span id="submitText">Send Message</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">✅</div>
+            <h4>Message Sent!</h4>
+            <p>Thanks for reaching out. I'll get back to you soon!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#home" class="footer-logo">
+          <span class="logo-bracket">&lt;</span>AK<span class="logo-bracket">/&gt;</span>
+        </a>
+        <div class="footer-socials">
+          <a href="https://github.com/ayeshakitey" target="_blank" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/ayesha-kitey-063360251" target="_blank" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:ayeshakitey@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>© 2025 Ayesha Kitey. Crafted with <span class="heart">♥</span> and lots of ☕</p>
+        <div class="footer-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
